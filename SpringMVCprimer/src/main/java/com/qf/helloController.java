@@ -11,7 +11,8 @@ public class helloController implements Controller {
     @Override
     public ModelAndView handleRequest(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) throws Exception {
         return new ModelAndView("hello");
-//        System.out.println(123);
+        
+       System.out.println(123);
 //        ModelAndView hello = new ModelAndView();
 //        hello.setViewName("hello");
 //
